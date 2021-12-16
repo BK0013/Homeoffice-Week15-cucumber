@@ -1,0 +1,464 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9090917100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "An Australian coming to the UK for Tourism.",
+        "description": "",
+        "id": "visa-checks;an-australian-coming-to-the-uk-for-tourism.",
+        "after": [
+          {
+            "result": {
+              "duration": 1303627800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 412551900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "HomeOfficeSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534661800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start visa check",
+            "match": {
+              "location": "HomeOfficeSteps.iStartVisaCheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246427800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select a nationality of \u0027australia\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectANationalityOfAustralia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279604800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111447800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select reason \u0027tourism\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectReasonTourism()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332278500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on continue button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85206400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will be informed \u0027You will not need a visa to come to the UK\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iWillBeInformedYouWillNotNeedAVisaToComeToTheUK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sanity"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3932349000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "A Chilean coming to the UK for Work and plans on staying for longer than 6 months.",
+        "description": "",
+        "id": "visa-checks;a-chilean-coming-to-the-uk-for-work-and-plans-on-staying-for-longer-than-6-months.",
+        "after": [
+          {
+            "result": {
+              "duration": 1006657100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "HomeOfficeSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404975000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I start visa check",
+            "match": {
+              "location": "HomeOfficeSteps.iStartVisaCheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148623000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select a nationality of \u0027chile\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectANationalityOfChile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429736200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104723600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select reason \u0027Work, academic visit or business\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectReasonWorkAcademicVisitOrBusiness()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336833700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117511100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I state I am intending to stay for \u0027more\u0027 than 6 months",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 47
+                }
+              ],
+              "location": "HomeOfficeSteps.iStateIAmIntendingToStayForMoreThanMonths(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359865700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109486100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I state I have planning to work \u0027health\u0027 types of job",
+            "match": {
+              "location": "HomeOfficeSteps.iStateIHavePlanningToWorkHealthTypesOfJob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434416500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72963800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I will be informed \u0027You need a visa to work in health and care\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iWillBeInformedYouNeedAVisaToWorkInHealthAndCare()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Smoke"
+          },
+          {
+            "line": 15,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4034573100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "A Columbian national coming to the UK to join a partner for a long stay. They do have an Article 10 or 20 card.",
+        "description": "",
+        "id": "visa-checks;a-columbian-national-coming-to-the-uk-to-join-a-partner-for-a-long-stay.-they-do-have-an-article-10-or-20-card.",
+        "after": [
+          {
+            "result": {
+              "duration": 940207000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am on the Check UK visa website",
+            "match": {
+              "location": "HomeOfficeSteps.iAmOnTheCheckUKVisaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334231100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I start visa check",
+            "match": {
+              "location": "HomeOfficeSteps.iStartVisaCheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144059300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select a nationality  of \u0027colombia\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectANationalityOfColombia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399691400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96216200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select reason \u0027family\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iSelectReasonFamily()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374243000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130861700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I state My partner or family member have uk immigration status \u0027yes\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iStateMyPartnerOrFamilyMemberHaveUkImmigrationStatusYes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393333400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on next button",
+            "match": {
+              "location": "HomeOfficeSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69434600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I will be informed \u0027You’ll need a visa to join your family or partner in the UK\u0027",
+            "match": {
+              "location": "HomeOfficeSteps.iWillBeInformedYouLlNeedAVisaToJoinYourFamilyOrPartnerInTheUK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Visa checks",
+    "description": "",
+    "id": "visa-checks",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/VisaChecks.feature"
+  }
+]
